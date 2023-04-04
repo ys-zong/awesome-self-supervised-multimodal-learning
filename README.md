@@ -2,7 +2,7 @@
 A curated list of awesome self-supervised multimodal learning resources. Check our [survey paper](https://arxiv.org/abs/2304.01008) for details!
 
 ```
-@article{zong2022SSML,
+@article{zong2023SSML,
   title={Self-Supervised Multimodal Learning: A Survey},
   author={Zong, Yongshuo and Mac Aodha, Oisin and Hospedales, Timothy},
   journal={arXiv preprint arXiv:2304.01008},
