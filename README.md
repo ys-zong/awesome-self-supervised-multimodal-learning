@@ -1,4 +1,6 @@
 # Awesome-self-supervised-multimodal-learning
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 A curated list of awesome self-supervised multimodal learning resources. Check our [survey paper](https://arxiv.org/abs/2304.01008) for details!
 
 ```
@@ -35,13 +37,13 @@ A curated list of awesome self-supervised multimodal learning resources. Check o
   - [Point Cloud Datasets](#point-cloud-datasets)
 
 ## Overview
-Taxonomy: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. These axes correspond to the inherent characteristics of self-supervised learning methods and multimodal data. Specifically, we classify training objectives into instance discrimination, clustering, and masked prediction categories. We also discuss multimodal input data pairing and alignment strategies during training. Finally, we review model architectures including the design of encoders, fusion modules, and decoders, which are essential components of SSML methods.
+**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. These axes correspond to the inherent characteristics of self-supervised learning methods and multimodal data. Specifically, we classify training objectives into instance discrimination, clustering, and masked prediction categories. We also discuss multimodal input data pairing and alignment strategies during training. Finally, we review model architectures including the design of encoders, fusion modules, and decoders, which are essential components of SSML methods.
 
 <p align="center">
   <img src=figs/taxo.png width="500">
 </p>
 
-Learning Paradigms: An example illustrating the self-supervised vision and language pretraining prior to downstream supervised learning
+**Learning Paradigms**: An example illustrating the self-supervised vision and language pretraining prior to downstream supervised learning
 for visual question answering is shown below. (a) supervised multimodal learning, and (b) self-supervised multimodal learning: Top, self-supervised pretraining without manual annotations; Bottom, supervised fine-tuning or linear readout for downstream tasks.
 
 <p align="center">
