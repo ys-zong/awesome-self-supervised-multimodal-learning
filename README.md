@@ -11,6 +11,7 @@ A curated list of awesome self-supervised multimodal learning resources. Check o
 ```
 
 ## Table of Contents
+- [Overview](#overview)
 - [Related Survey Papers](#related-survey-papers)
 - [Objectives](#objectives)
   - [Instance Discrimination](#instance-discrimination)
@@ -32,6 +33,23 @@ A curated list of awesome self-supervised multimodal learning resources. Check o
   - [Video-Text Datasets](#video-text-datasets)
   - [Video-Audio Datasets](#video-audio-datasets)
   - [Point Cloud Datasets](#point-cloud-datasets)
+
+## Overview
+Taxonomy: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. These axes correspond to the inherent characteristics of self-supervised learning methods and multimodal data. Specifically, we classify training objectives into instance discrimination, clustering, and masked prediction categories. We also discuss multimodal input data pairing and alignment strategies during training. Finally, we review model architectures including the design of encoders, fusion modules, and decoders, which are essential components of SSML methods.
+
+<div style="width:85%; margin: auto;">
+
+![taxo](figs/taxo.png)
+</div>
+
+Learning Paradigms: An example illustrating the self-supervised vision and language pretraining prior to downstream supervised learning
+for visual question answering is shown below. (a) supervised multimodal learning, and (b) self-supervised multimodal learning: Top, self-supervised pretraining without manual annotations; Bottom, supervised fine-tuning or linear readout for downstream tasks.
+
+<div style="width:85%; margin: auto;">
+
+![paradigms](figs/paradigms.png)
+</div>
+
 
 
 ## Related Survey Papers
