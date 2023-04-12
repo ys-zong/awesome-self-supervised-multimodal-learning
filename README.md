@@ -81,7 +81,11 @@ for visual question answering is shown below. (a) supervised multimodal learning
 ### Instance Discrimination
 In the context of multimodal learning, instance discrimination often aims to determine whether samples from two input modalities are from the same instance, i.e., paired. By doing so, it attempts to align the representation space of the paired modalities while pushing the representation space of different instance pairs further apart. There are two types of instance discrimination objectives: contrastive and matching prediction, depending on how the input is sampled.
 
-![InstanceDiscrimination](figs/InstanceD.png)
+
+<p align="center">
+  <img src=figs/InstanceD.png width="700">
+</p>
+
 
 - Learning transferable visual models from natural language supervision.
   - *ICML 2021* [[paper]](http://arxiv.org/abs/2103.00020v1)
@@ -189,7 +193,9 @@ In the context of multimodal learning, instance discrimination often aims to det
 ### Clustering
 Clustering methods assume that applying end-to-end trained clustering will lead to the grouping of the data by semantically salient characteristics. In practice, these methods iteratively predict the cluster assignments of the encoded representation, and use these predictions, also known as pseudo labels, as supervision signals to update the feature representation. Multimodal clustering provides the opportunity to learn multimodal representations and also improve conventional clustering by using each modality’s pseudolabels to supervise the other.
 
-![Clustering](figs/clustering.png)
+<p align="center">
+  <img src=figs/clustering.png width="700">
+</p>
 
 
 - Self-Supervised Learning by Cross-Modal Audio-Video Clustering.
@@ -218,7 +224,9 @@ The masked prediction task can be either performed in an
 auto-encoding (similar to BERT) or an auto-regressive
 approach (similar to GPT).
 
-![MP](figs/MP.png)
+<p align="center">
+  <img src=figs/MP.png width="700">
+</p>
 
 - VATLM: Visual-Audio-Text Pre-Training with Unified Masked Prediction for Speech Representation Learning.
   - *arXiv 2022* [[paper]](http://arxiv.org/abs/2211.11275v1) [[code]](https://github.com/microsoft/SpeechT5/tree/main/VATLM)
