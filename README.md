@@ -45,7 +45,7 @@ Taxonomy: In our survey, we provide a comprehensive review of the state-of-the-a
 Learning Paradigms: An example illustrating the self-supervised vision and language pretraining prior to downstream supervised learning
 for visual question answering is shown below. (a) supervised multimodal learning, and (b) self-supervised multimodal learning: Top, self-supervised pretraining without manual annotations; Bottom, supervised fine-tuning or linear readout for downstream tasks.
 
-<div style="width:85%; margin: auto;">
+<div style="width:70%; margin: auto;">
 
 ![paradigms](figs/paradigms.png)
 </div>
