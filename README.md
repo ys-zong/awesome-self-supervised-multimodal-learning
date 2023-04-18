@@ -234,6 +234,9 @@ approach (similar to GPT).
 - CTAL: Pre-training Cross-modal Transformer for Audio-and-Language Representations.
   - *EMNLP 2021* [[paper]](https://arxiv.org/abs/2107.00249) [[code]](https://github.com/Ydkwim/CTAL)
 
+- Jointly Learning Visual and Auditory Speech Representations from Raw Data.
+  - *ICLR 2023* [[paper]](https://arxiv.org/abs/2212.06246) [[code]](https://github.com/ahaliassos/raven)
+
 - Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks.
   - *arXiv 2022* [[paper]](http://arxiv.org/abs/2208.10442v2) [[code]](https://github.com/microsoft/unilm/tree/master/beit3)
 
