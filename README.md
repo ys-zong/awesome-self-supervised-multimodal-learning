@@ -37,14 +37,13 @@ A curated list of awesome self-supervised multimodal learning resources. Check o
   - [Point Cloud Datasets](#point-cloud-datasets)
 
 ## Overview
-**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. These axes correspond to the inherent characteristics of self-supervised learning methods and multimodal data. Specifically, we classify training objectives into instance discrimination, clustering, and masked prediction categories. We also discuss multimodal input data pairing and alignment strategies during training. Finally, we review model architectures including the design of encoders, fusion modules, and decoders, which are essential components of SSML methods.
+**Taxonomy**: Multimodal learning, which aims to understand and analyze information from multiple modalities, has achieved substantial progress in the supervised regime in recent years. However, the heavy dependence on data paired with expensive human annotations impedes scaling up models. Meanwhile, given the availability of large-scale unannotated data in the wild, self-supervised learning has become an attractive strategy to alleviate the annotation bottleneck. Building on these two directions, self-supervised multimodal learning (SSML) provides ways to learn from raw multimodal data. In this survey, we provide a comprehensive review of the state-of-the-art in SSML, in which we elucidate three major challenges intrinsic to self-supervised learning with multimodal data: (1) learning representations from multimodal data without labels, (2) fusion of different modalities, and (3) learning with unaligned data. We then detail existing solutions to these challenges. Specifically, we consider (1) objectives for learning from multimodal unlabeled data via self-supervision, (2) model architectures from the perspective of different multimodal fusion strategies, and (3) pair-free learning strategies for coarse-grained and fine-grained alignment.
 
 <p align="center">
   <img src=figs/taxo.png width="500">
 </p>
 
-**Learning Paradigms**: An example illustrating the self-supervised vision and language pretraining prior to downstream supervised learning
-for visual question answering is shown below. (a) supervised multimodal learning, and (b) self-supervised multimodal learning: Top, self-supervised pretraining without manual annotations; Bottom, supervised fine-tuning or linear readout for downstream tasks.
+**Learning Paradigms**: An example illustrating the self-supervised vision and language pretraining prior to downstream supervised learning for visual question answering is shown below. (a) supervised multimodal learning, and (b) self-supervised multimodal learning: Top, self-supervised pretraining without manual annotations; Bottom, supervised fine-tuning or linear readout for downstream tasks.
 
 <p align="center">
   <img src="figs/paradigms.png" width="500">
