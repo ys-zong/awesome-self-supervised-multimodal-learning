@@ -271,6 +271,9 @@ approach (similar to GPT).
   - *NAACL 2021* [[paper]](http://arxiv.org/abs/2010.12831v2) [[code]](https://github.com/uclanlp/visualbert)
 
 
+- VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding.
+  - *arXiv 2026* [[paper]](https://arxiv.org/abs/2607.14935) [[code]](https://github.com/MCG-NJU/VideoChat3)
+
 ### Hybrid
 
 
